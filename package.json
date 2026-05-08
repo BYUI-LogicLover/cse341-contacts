@@ -1,0 +1,23 @@
+{
+  "name": "cse341-contacts",
+  "version": "1.0.0",
+  "description": "Contacts database",
+  "homepage": "https://github.com/BYUI-LogicLover/cse341-contacts#readme",
+  "bugs": {
+    "url": "https://github.com/BYUI-LogicLover/cse341-contacts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BYUI-LogicLover/cse341-contacts.git"
+  },
+  "license": "MIT",
+  "author": "Travis Nelson",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
