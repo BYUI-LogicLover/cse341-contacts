@@ -2,7 +2,7 @@ import 'dotenv/config';
 import swaggerAutogen from 'swagger-autogen';
 
 const host = process.env.HOST || 'localhost:3000';
-const schemes = 'https';
+const schemes = host.startsWith('localhost') ? ['http'] : ['https'];
 
 const doc = {
     info: {
